@@ -1,14 +1,23 @@
-#Take the first input from the user and call it start_year.
-a= input ("start_year: ")
-print ("start_year:", a)
+#Take the first input from the user and call it first_number.
+a= input ("first_number: ")
+print ("first_number: ", a)
 #convert a to integer type
 a=int(a) 
 
-#Take the second input from the user and call it end_year.
-b= input ("end_year: ")
-print ("end_year:", b)
+#Take the second input from the user and call it second_number.
+b= input ("second_number: ")
+print ("second_number: ", b)
 #convert b to integer type
 b=int(b) 
 
-# Create a variable age and assign it to the calculated age from the two inputs.
-print ("the age variable:" , b-a) 
+#Create the variables sum
+print ("the sum of a and b: " , a+b) 
+
+#Create the variables subtraction
+print ("the substraction of a and b: " , a-b) 
+
+#Create the variables multiplication
+print ("the multiplication of a and b: " , a*b) 
+
+#Create the variables division
+print ("the division of a and b: " , a/b) 
